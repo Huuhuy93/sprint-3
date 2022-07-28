@@ -1,0 +1,39 @@
+<div class="container-fluid" id="main-container">
+  <div class="container">
+
+    <h3 class="title"> organic products </h3>
+
+      <div class="products-container">
+          <div class="product" data-name="p-1"  *ngFor="let b of books">
+            <img src="{{b.image}}" alt="">
+            <h3>{{b.name}}</h3>
+            <div class="price">{{b.price}}</div>
+          </div>
+      </div>
+
+
+  </div>
+
+  <div class="products-preview">
+
+    <div class="preview" data-target="p-1" *ngFor="let b of books">
+      <i class="fas fa-times"></i>
+      <img src="{{b.image}}" alt="">
+      <h3>{{b.name}}</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">{{b.price}}</div>
+      <div class="buttons">
+        <a href="#" class="buy">buy now</a>
+        <a href="#" class="cart">add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>

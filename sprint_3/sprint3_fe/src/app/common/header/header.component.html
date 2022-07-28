@@ -1,0 +1,67 @@
+<header class="header">
+
+  <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> C11Book </a>
+
+  <nav class="navbar">
+    <a href="#home">Trang Chủ</a>
+    <a href="#features">Tính Năng</a>
+<!--    <a href="#products">Sản Phẩm</a>-->
+    <a [routerLink]="['book/list']">Sản Phẩm</a>
+    <a href="#categories">Danh Mục</a>
+    <a href="#review">Đánh Giá</a>
+  </nav>
+
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+  </form>
+
+  <div class="shopping-cart">
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img src="/assets/image/book10.jpg" alt="">
+      <div class="content">
+        <h3>nghệ thuật giao tiếp</h3>
+        <span class="price">$4.99/-</span>
+        <span class="quantity">qty : 1</span>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img src="/assets/image/book7.jpg" alt="">
+      <div class="content">
+        <h3>nhà giả kim</h3>
+        <span class="price">$4.99/-</span>
+        <span class="quantity">qty : 1</span>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img src="/assets/image/book3.jpg">
+      <div class="content">
+        <h3>chí phèo</h3>
+        <span class="price">$4.99/-</span>
+        <span class="quantity">qty : 1</span>
+      </div>
+    </div>
+    <div class="total"> total : $19.69/- </div>
+    <a href="#" class="btn">checkout</a>
+  </div>
+
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>forget your password <a href="#">click here</a></p>
+    <p>don't have an account <a href="#">create now</a></p>
+    <input type="submit" value="login now" class="btn">
+  </form>
+
+</header>
