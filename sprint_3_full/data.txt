@@ -1,0 +1,10 @@
+INSERT INTO `book_store`.`author` (`author_id`, `name`) VALUES ('1', 'Tố Hữu');
+INSERT INTO `book_store`.`author` (`author_id`, `name`) VALUES ('2', 'Ngô Tất Tố');
+INSERT INTO `book_store`.`author` (`author_id`, `name`) VALUES ('3', 'Shakespeare');
+INSERT INTO `book_store`.`author` (`author_id`, `name`) VALUES ('4', 'Tolstoy');
+INSERT INTO `book_store`.`author` (`author_id`, `name`) VALUES ('5', 'Dickens');
+
+INSERT INTO `book_store`.`publisher` (`publisher_id`, `name`) VALUES ('1', 'Nhà Xuất Bản Kim Đồng');
+INSERT INTO `book_store`.`publisher` (`publisher_id`, `name`) VALUES ('2', 'Nhà Xuất Bản Thanh Niên');
+INSERT INTO `book_store`.`publisher` (`publisher_id`, `name`) VALUES ('3', 'Nhà xuất bản Hồng Đức');
+INSERT INTO `book_store`.`publisher` (`publisher_id`, `name`) VALUES ('4', 'Nhà xuất bản Lao động');
